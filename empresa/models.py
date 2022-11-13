@@ -44,7 +44,7 @@ class Vagas(models.Model):
         ('F', 'Finalizado')
     )
     
-    empresa = models.ForeignKey(Empresa, on_delete=models.DO_NOTHING) #relação um para muitos, se a empresa na qual for excluida nao faça nada com a vaga
+    empresa = models.ForeignKey(Empresa, null=True, on_delete=models.SET_NULL) #relação um para muitos, se a empresa na qual for excluida nao faça nada com a vaga
     titulo = models.CharField(max_length=30)
     nivel_experiencia = models.CharField(max_length=2, choices=choices_experiencia)
     data_final = models.DateField()
