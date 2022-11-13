@@ -1,0 +1,19 @@
+.titulo{
+    color: brown;
+}
+
+.paragrafo{
+    font-size: 25px;
+}
+
+.btn{
+
+    background-color: #ED8554;
+    color: white;
+}
+
+.btn:hover{
+
+    background-color: #be6136;
+    color: white;
+}
