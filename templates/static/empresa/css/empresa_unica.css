@@ -1,19 +1,47 @@
 .titulo{
-    color: brown;
+
+    color: #7D2948;
+    font-weight: bold;
+
 }
 
 .paragrafo{
     font-size: 25px;
 }
 
-.btn{
+.btn-orange{
 
     background-color: #ED8554;
     color: white;
 }
 
-.btn:hover{
+label{
+    font-weight: bold;
+}
 
-    background-color: #be6136;
+.box-vagas{
+
+    width: 400px;
+    margin-top: 60px;
+    background-color: #EDE6E6;
+}
+
+.header-vagas{
+    background-color: #7D2948;
+    padding: 15px;
+    color: white
+}
+
+.body-vagas{
+    padding: 15px;
+}
+
+.paragrafo-orange{
+    color: #ED8554;
+}
+
+.btn{
+
+    background-color: #ED8554;
     color: white;
 }
