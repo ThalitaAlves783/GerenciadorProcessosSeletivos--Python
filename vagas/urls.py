@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
 
-urlpatterns = {
+urlpatterns = [
     path('nova_vaga/', views.nova_vaga, name="nova_vaga")
-}
+]
